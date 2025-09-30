@@ -20,7 +20,7 @@ public class NewsClient {
     @Value("${news.api.country}")
     private String country;
 
-    public NewsApiResponse getTopHeadlines() {
+    public NewsApiResponse fetchTopHeadlines() {
         return restClient.get()
                 .uri(uriBuilder -> uriBuilder
                         .path("v2/top-headlines")
