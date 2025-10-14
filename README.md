@@ -17,7 +17,7 @@ AI News Digest is a Spring Boot-based RESTful API that fetches the latest news h
 - **Framework**: Spring Boot 3.5.6
 - **Language**: Java 21
 - **Build Tool**: Maven
-- **External APIs**: 
+- **External APIs**:
   - NewsAPI.org (news data)
   - Google Gemini API (AI summarization)
 - **Caching**: Spring Cache with ConcurrentMapCacheManager
@@ -132,7 +132,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 5. **Access the application**
    - News Summary JSON: `http://localhost:8080/api/v1/news/summary`
-   - News Summary HTML: `http://localhost:8080/api/v1/news/summary`
+   - News Summary HTML: `http://localhost:8080/api/v1/news/render`
 
 ## Usage Examples
 
